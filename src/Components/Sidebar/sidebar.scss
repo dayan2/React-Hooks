@@ -1,0 +1,17 @@
+
+.sidebar {
+  &.ant-layout-sider-collapsed .logo {
+    opacity: 0;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+    transition: .3s;
+
+    img {
+      width: 120px;
+    }
+  }
+}
